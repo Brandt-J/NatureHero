@@ -19,4 +19,4 @@ tile_set = ExtResource("1_g7g4h")
 position = Vector2(642, 350)
 
 [node name="CharacterBase" parent="." instance=ExtResource("2_j8ivh")]
-position = Vector2(377, 273)
+position = Vector2(538, 297)

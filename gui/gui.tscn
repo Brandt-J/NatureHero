@@ -23,3 +23,17 @@ offset_bottom = 0.0
 grow_horizontal = 0
 joystick_mode = 1
 use_input_actions = false
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="LabelPlayerName" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 33
+text = "DefaultPlayer"
+
+[node name="LabelXP" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 33
+text = "100 XP"

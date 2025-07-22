@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bjsr1evmj2ye3"
+
+[deps]
+
+files=["res://data/Info.Art.translation", "res://data/Info.Art.translation", "res://data/Info.Ordnung.translation", "res://data/Info.Familie.translation", "res://data/Info.Familie.translation", "res://data/Info.Familie.translation", "res://data/Info.Futterpflanze.translation", "res://data/Info.Good.translation"]
+
+source_file="res://data/Info.csv"
+dest_files=["res://data/Info.Art.translation", "res://data/Info.Art.translation", "res://data/Info.Ordnung.translation", "res://data/Info.Familie.translation", "res://data/Info.Familie.translation", "res://data/Info.Familie.translation", "res://data/Info.Futterpflanze.translation", "res://data/Info.Good.translation"]
+
+[params]
+
+compress=true
+delimiter=0

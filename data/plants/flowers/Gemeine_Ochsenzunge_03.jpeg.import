@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://re142eblr2xk"
-path="res://.godot/imported/6.jpeg-e21a95ef920f095c1d9056283da638ca.ctex"
+uid="uid://n1usokgh5w6t"
+path="res://.godot/imported/Gemeine_Ochsenzunge_03.jpeg-3cda57b0f30d3b792d9a920902024f63.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://data/unsorted/6.jpeg"
-dest_files=["res://.godot/imported/6.jpeg-e21a95ef920f095c1d9056283da638ca.ctex"]
+source_file="res://data/plants/flowers/Gemeine_Ochsenzunge_03.jpeg"
+dest_files=["res://.godot/imported/Gemeine_Ochsenzunge_03.jpeg-3cda57b0f30d3b792d9a920902024f63.ctex"]
 
 [params]
 

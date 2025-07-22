@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dt2mrlbu44xjq"
-path="res://.godot/imported/10.jpeg-d15b8829923e02c27c922d97b4a559f6.ctex"
+uid="uid://dngm1c0bse3mx"
+path="res://.godot/imported/Wiesenkerbel_01.jpeg-557f8ae7b78343b36b624969f44bef29.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://data/unsorted/10.jpeg"
-dest_files=["res://.godot/imported/10.jpeg-d15b8829923e02c27c922d97b4a559f6.ctex"]
+source_file="res://data/plants/flowers/Wiesenkerbel_01.jpeg"
+dest_files=["res://.godot/imported/Wiesenkerbel_01.jpeg-557f8ae7b78343b36b624969f44bef29.ctex"]
 
 [params]
 

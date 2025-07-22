@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c86tra2ml8s5i"
-path="res://.godot/imported/Gämswurz_02.jpeg-b6fa4502850425f3876011ede4aec92d.ctex"
+uid="uid://0rmhgaqdhw6n"
+path="res://.godot/imported/Gämswurz_01.jpeg-c922fd2f972003ac3befc324657ddcc4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://data/unsorted/Gämswurz_02.jpeg"
-dest_files=["res://.godot/imported/Gämswurz_02.jpeg-b6fa4502850425f3876011ede4aec92d.ctex"]
+source_file="res://data/plants/flowers/Gämswurz_01.jpeg"
+dest_files=["res://.godot/imported/Gämswurz_01.jpeg-c922fd2f972003ac3befc324657ddcc4.ctex"]
 
 [params]
 

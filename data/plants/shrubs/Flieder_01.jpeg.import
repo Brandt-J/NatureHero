@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://hff2m0f5qcxe"
-path="res://.godot/imported/aquilegia_vulgaris_02.jpeg-7b307c52bfc7a9badbea12fd987c930f.ctex"
+uid="uid://cbhhf3gluxe18"
+path="res://.godot/imported/Flieder_01.jpeg-99fc23ec7c70c9821bfa71d0466fbcdd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://data/plants/shrubs/aquilegia_vulgaris_02.jpeg"
-dest_files=["res://.godot/imported/aquilegia_vulgaris_02.jpeg-7b307c52bfc7a9badbea12fd987c930f.ctex"]
+source_file="res://data/plants/shrubs/Flieder_01.jpeg"
+dest_files=["res://.godot/imported/Flieder_01.jpeg-99fc23ec7c70c9821bfa71d0466fbcdd.ctex"]
 
 [params]
 

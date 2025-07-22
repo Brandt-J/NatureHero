@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://xlhxieq8g7qj"
-path="res://.godot/imported/Labkraut_01.jpeg-89cd97350502b5afb700bff958b630f3.ctex"
+uid="uid://cybcknc6uwfqw"
+path="res://.godot/imported/Veilchen_01.jpeg-ca6eaab0da40209a2e52c256908c27a2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://data/plants/herbs/Labkraut_01.jpeg"
-dest_files=["res://.godot/imported/Labkraut_01.jpeg-89cd97350502b5afb700bff958b630f3.ctex"]
+source_file="res://data/plants/shrubs/Veilchen_01.jpeg"
+dest_files=["res://.godot/imported/Veilchen_01.jpeg-ca6eaab0da40209a2e52c256908c27a2.ctex"]
 
 [params]
 

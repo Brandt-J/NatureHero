@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://0crxt6x6k75h"
-path="res://.godot/imported/lilac_01.jpeg-32879f7598c338fa2ce44eb22ae7e737.ctex"
+uid="uid://hmqoykw3y3t4"
+path="res://.godot/imported/Veilchen_02.jpeg-158b3e3b27a2b3d9edbaa8df74462128.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://data/plants/shrubs/lilac_01.jpeg"
-dest_files=["res://.godot/imported/lilac_01.jpeg-32879f7598c338fa2ce44eb22ae7e737.ctex"]
+source_file="res://data/plants/shrubs/Veilchen_02.jpeg"
+dest_files=["res://.godot/imported/Veilchen_02.jpeg-158b3e3b27a2b3d9edbaa8df74462128.ctex"]
 
 [params]
 

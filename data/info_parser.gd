@@ -2,7 +2,7 @@ extends Node
 class_name InfoParser
 
 var csv_file_path: String = "res://data/Info.csv"
-var _col_name_image_name: String = "Art_latein"
+var _col_name_image_name: String = "Art_deutsch"
 var _data: Dictionary[String, Dictionary] = {}
 var _logger: Logging.Logger
 
@@ -16,7 +16,7 @@ func import_resources_data():
 	var idx_col_identifier: int = -1
 	var idx_row: int = 0
 	var data_array: Array[String]
-	var name_latin: String
+	var name_identifier: String
 	var fields: Array[String] = []
 	
 	while !file.eof_reached():
@@ -32,12 +32,12 @@ func import_resources_data():
 			continue
 			
 		else:
-			name_latin = data_array[idx_col_identifier]
-			if not name_latin:
+			name_identifier = data_array[idx_col_identifier]
+			if not name_identifier:
 				_logger.warning("Skipping row %s in input csv, latin name is empty" % idx_row)
 				continue
 			
-			_data[name_latin] = _parse_fields(fields, data_array)
+			_data[name_identifier] = _parse_fields(fields, data_array)
 		
 		idx_row += 1
 		

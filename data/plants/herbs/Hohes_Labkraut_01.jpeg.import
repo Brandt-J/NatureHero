@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://4sxo0rs1x028"
-path="res://.godot/imported/viola_01.jpeg-53c2d03c14f92806a2f1d0bab901af74.ctex"
+uid="uid://7rvexc1ukacr"
+path="res://.godot/imported/Hohes_Labkraut_01.jpeg-e23fe199810b1f2001ba5b9c615bfddf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://data/plants/shrubs/viola_01.jpeg"
-dest_files=["res://.godot/imported/viola_01.jpeg-53c2d03c14f92806a2f1d0bab901af74.ctex"]
+source_file="res://data/plants/herbs/Hohes_Labkraut_01.jpeg"
+dest_files=["res://.godot/imported/Hohes_Labkraut_01.jpeg-e23fe199810b1f2001ba5b9c615bfddf.ctex"]
 
 [params]
 

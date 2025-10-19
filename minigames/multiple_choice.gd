@@ -2,41 +2,27 @@ extends Control
 class_name MultipleChoiceGame
 
 
-var _parser: InfoParser
-var _image_fnames: Array[String] = []
-
+@onready var requester: HTTPRequest = $HTTPRequest
+var t0: float
 
 func _ready() -> void:
-	pass
-	#_parser = InfoParser.new()
-	#_image_fnames = get_images("res://data/plants/")
-	#for img_name in _image_fnames:
-		#print(_parser.get_info_of(img_name))
+	var request: String = "http://5.189.191.115:8123/get_images_of/acinos/"
+	t0 = Time.get_ticks_msec()
+	var err: Error = requester.request(request)
+	if err != OK:
+		print("Error with request: %s, errorcode: %s" %[request, err])
 
 
-func get_images(path: String, ignore_patterns: Array[String] = [".import"]) -> Array[String]:
-	var dir: DirAccess = DirAccess.open(path)
-	var img_fnames: Array[String] = []
-	if dir:
-		dir.list_dir_begin()
-		var file_name: String = dir.get_next()
-		while file_name != "":
-			if dir.current_is_dir():
-				img_fnames += get_images(path + file_name)
-			else:
-				if _is_valid_file(file_name, ignore_patterns):
-					img_fnames.append(path + "/" + file_name)
-			file_name = dir.get_next()
-	else:
-		print("An error occurred when trying to access the path.")
-	
-	return img_fnames
-
-
-func _is_valid_file(fname: String, anti_patterns: Array[String]) -> bool:
-	var valid: bool = true
-	for pattern in anti_patterns:
-		if fname.ends_with(pattern):
-			valid = false
-			break
-	return valid
+func _on_http_request_request_completed(_result, response_code, _headers, body):
+	if response_code == 200:
+		var json_arr = JSON.parse_string(body.get_string_from_utf8())
+		if json_arr:
+			var base64_str = json_arr[0]
+			var image_bytes = Marshalls.base64_to_raw(base64_str)
+			
+			var image = Image.new()
+			var err = image.load_jpg_from_buffer(image_bytes)  # Or use load_png_from_buffer()
+			if err == OK:
+				var texture = ImageTexture.create_from_image(image)
+				$Sprite2D.texture = texture
+				print("Successfully loaded image texture, took %s seconds" % str((Time.get_ticks_msec() - t0)/1000))

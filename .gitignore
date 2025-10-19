@@ -11,3 +11,5 @@ export_presets.cfg
 
 data/.~lock.Info.ods#
 data/.~lock.Info.csv#
+
+.idea/

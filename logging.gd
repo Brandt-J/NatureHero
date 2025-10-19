@@ -12,7 +12,7 @@ enum LogLevel {
 }
 
 
-class Logger:
+class HeroLogger:
 	var logger_name: String = "default"
 	var level = LogLevel.INFO
 	
@@ -42,7 +42,7 @@ class Logger:
 		print("%s: %s, %s, %s" % [timeString, logger_name, levelString, message])
 
 
-func get_logger(logger_name: String = "default") -> Logger:
+func get_logger(logger_name: String = "default") -> HeroLogger:
 	if not logger_name in _loggers:
-		_loggers[logger_name] = Logger.new(logger_name)
+		_loggers[logger_name] = HeroLogger.new(logger_name)
 	return _loggers[logger_name]

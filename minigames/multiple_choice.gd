@@ -7,10 +7,11 @@ var _image_fnames: Array[String] = []
 
 
 func _ready() -> void:
-	_parser = InfoParser.new()
-	_image_fnames = get_images("res://data/plants/")
-	for img_name in _image_fnames:
-		print(_parser.get_info_of(img_name))
+	pass
+	#_parser = InfoParser.new()
+	#_image_fnames = get_images("res://data/plants/")
+	#for img_name in _image_fnames:
+		#print(_parser.get_info_of(img_name))
 
 
 func get_images(path: String, ignore_patterns: Array[String] = [".import"]) -> Array[String]:

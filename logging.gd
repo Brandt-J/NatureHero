@@ -14,7 +14,7 @@ enum LogLevel {
 
 class HeroLogger:
 	var logger_name: String = "default"
-	var level = LogLevel.INFO
+	var level = LogLevel.DEBUG
 	
 	func _init(new_logger_name: String):
 		logger_name = new_logger_name

@@ -11,8 +11,11 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_ocajk")
 
-[node name="HTTPRequest" type="HTTPRequest" parent="."]
-
-[node name="Sprite2D" type="Sprite2D" parent="."]
-
-[connection signal="request_completed" from="HTTPRequest" to="." method="_on_http_request_request_completed"]
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+columns = 2

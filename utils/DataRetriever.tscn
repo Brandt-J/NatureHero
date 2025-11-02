@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dbxur8ur0wjqs"]
+
+[ext_resource type="Script" uid="uid://x8c7dyuvnkmt" path="res://utils/data_retriever.gd" id="1_el8mm"]
+
+[node name="DataRetriever" type="Node"]
+script = ExtResource("1_el8mm")
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
+
+[connection signal="request_completed" from="HTTPRequest" to="." method="_on_get_images_request_request_completed"]
